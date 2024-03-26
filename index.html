@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Column Layout</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+
+<script>
+  // Prompt user for password
+  var password = prompt("Enter the password to access the website:");
+
+  // Check if password is correct
+  if (password !== "030108") {
+    alert("Incorrect password. Access denied.");
+    window.location.href = "https://www.finleyyoung.com/"; // Redirect to access denied page
+  } else {
+    alert("Password correct. Welcome to the website!");
+    // Continue loading the website content
+  }
+</script>
+
+<div class="container">
+    <div class="left-column">
+        <!-- Left Column Content Goes Here -->
+        <div class="logo">
+            <!-- Logo Image Goes Here -->
+            <img src="photos/fin logo just letters white.png" alt="Logo">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="slow.html">Home</a></li>
+                <li><a href="slow.html">About</a></li>
+                <li><a href="slow.html">Contact</a></li>
+                <li><a href="slow.html">Featured</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-column">
+        <div class="top-section">
+            <!-- Top Section Content Goes Here -->
+            <div class="top-navigation">
+                <ul>
+                    <li><a href="slow.html">Wildlife</a></li>
+                    <li><a href="slow.html">Landscapes</a></li>
+                    <li><a href="slow.html">Plants</a></li>
+                    <li><a href="slow.html">Macro</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <!-- Bottom Section Content Goes Here -->
+            <div class="photo-container">
+                <div class="column">
+                    <img src="photos/20240323-P1060539-2.jpg" alt="Snake">
+                    <img src="photos/20240323-P1060599.jpg" alt="Swan">
+                    <img src="photos/20240323-P1060611.jpg" alt="Concrete River">
+                    <img src="photos/50796585722_49a66bee1d_o.jpg" alt="Rutland Water Church">
+                    <img src="photos/50799923551_bb2eedcbc0_o.jpg" alt="Nevil Holt Landscape">
+                    <img src="photos/50810969842_3107d2cf66_o.jpg" alt="Bradgate Park Winter">
+                    <img src="photos/50816926351_1ba3df515c_o.jpg" alt="Early Morning Moss">
+                    <img src="photos/50821363363_0819f968e6_o.jpg" alt="Old Farming Equipment">
+                </div>
+                <div class="column">
+                    <img src="photos/20240323-P1060670.jpg" alt="Daffodil">
+                    <img src="photos/20240324-P1060839.jpg" alt="Pink and White Flower">
+                    <img src="photos/20240324-P1060861.jpg" alt="Blue Plant">
+                    <img src="photos/50801063061_6bd231f99b_o.jpg" alt="Fire Embers">
+                    <img src="photos/50801170522_21e234314d_o.jpg" alt="Fire Flame">
+                    <img src="photos/50816183683_610f02eb87_o.jpg" alt="Early Sunrise">
+                    <img src="photos/50817022722_aa1c10836f_o.jpg" alt="Moss with Water Drops">
+                    <img src="photos/50821363688_7d886d8d6d_o.jpg" alt="Ploughed Field">
+                    <img src="photos/50983235621_955f46ffec_o.jpg" alt="Winter Fog">
+                </div>
+                <div class="column">
+                    <img src="photos/20240324-P1060899.jpg" alt="Spring Evening">
+                    <img src="photos/20240324-P1070021-Enhanced-NR-2.jpg" alt="Long Exposure of stars">
+                    <img src="photos/20240324-P1060914.jpg" alt="Spring Plants">
+                    <img src="photos/50807410878_eae7ac0d09_o.jpg" alt="Swans On Lake">
+                    <img src="photos/50808258922_212e31083a_o.jpg" alt="Evening over Lake">
+                    <img src="photos/50816183803_ff72566a0c_o.jpg" alt="Early Pre Sunrise">
+                    <img src="photos/50817023312_32cd937146_o.jpg" alt="Sun Rays">
+                    <img src="photos/50929872621_e7f791507d_o.jpg" alt="Sun Set Over Snow">
+                </div>
+                <div class="column">
+                    <img src="photos/20240324-P1060938.jpg" alt="Street Light Cillotet">
+                    <img src="photos/20240324-P1060909-Edit.jpg" alt="English Daytime">
+                    <img src="photos/20240325-P1070075.jpg" alt="Piegon On Thached Roof">
+                    <img src="photos/50810111873_7f6996fc48_o.jpg" alt="Bradgate Park">
+                    <img src="photos/50810855751_8cab75f470_o.jpg" alt="Frosty Morning">
+                    <img src="photos/50816925266_e63bb42981_o.jpg" alt="Sheep in Fog">
+                    <img src="photos/50817404776_e7a8b5b808_o.jpg" alt="Deer on a Winter Morning">
+                    <img src="photos/50935288006_6801b345d9_o.jpg" alt="Snowy Sunset">
+                    <img src="photos/P1060081-2.jpg" alt="Water Drain Pipe">
+                </div>
+            </div>        
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img class="modal-img" id="img01">
+          <div class="caption" id="caption"></div>
+        </div>
+      </div>
+    <script src="script.js">
+        </script>
+    <script src="oom.js">
+    </script>
+</div>
+</body>
+</html>
+
