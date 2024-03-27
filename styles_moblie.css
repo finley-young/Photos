@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff; /* Example text color */
+    background-color: #151618;
+}
+
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    font-size: 50px; /* Increased font size */
+}
+
+#nav {
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: 600;
+}
+
+#nav ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav button {
+    margin-top: 0px; /* Add some space above the button */
+    font-size: 15px;
+}
+
+
+
+.content {
+    padding: 20px;
+}
+
+.show-nav {
+    display: block;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-column img {
+    width: 100%;
+    max-width: 300px; /* Adjust image width as needed */
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+.content h1 {
+    text-align: center; /* Center the title */
+    padding-bottom: 20px;
+}
+
+
+.footer {
+    background-color: #151618; /* Light background color for the footer */
+    padding-bottom: 50px;
+    margin-top: -20px;
+    text-align: center; /* Center-align content */
+}
+
+.footer h2 {
+    margin-bottom: 10px; /* Add some space between title and navigation */
+}
+
+.discover-nav {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the text */
+}
+
+.discover-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.discover-nav li a {
+    text-decoration: none;
+    color: #ffffff; /* Set color for navigation links */
+}
+
